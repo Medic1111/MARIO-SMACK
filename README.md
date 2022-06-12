@@ -85,7 +85,7 @@
 
 [SWITCH]
 
-- The switch function you see is what keeps track of mario position on the grid
+- The switch statement you see is what keeps track of mario position on the grid
 
 - If at any point his and Bowser's coordinates match, doesBowserWin() will call a game over #Determine Mario Col Position
 
