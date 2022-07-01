@@ -1,61 +1,61 @@
 # MARIO-SMACK
 
-- A HTML/CSS/JS game that consists of two characters: Mario and Bowser (nintendo owns all copyrights). The player takes the role of Mario, who has to 'POW' Bowser 50 times before the clock runs out.
+A HTML/CSS/JS game that consists of two characters: Mario and Bowser (nintendo owns all copyrights). The player takes the role of Mario, who has to 'POW' Bowser 50 times before the clock runs out.
 
-[STEPS]
+## STEPS
 
-- If live-server extension is available, download the project and 'go live'.
+1. If live-server extension is available, download the project and 'go live'.
 
-- Alternatively, manually open it on the browser.
+2. Alternatively, manually open it on the browser.
 
-- This is a desktop project.
+3. This is a desktop project.
 
-[CONTROLS]
+## CONTROLS
 
 - Space bar: Hammer action
 - Arrows: Mario movement
 
-[WIN-LOSE-CONDITIONS]
+#### WIN-LOSE-CONDITIONS
 
-- If the timer reaches zero, it is game over.
+1. If the timer reaches zero, it is game over.
 
-- Mario has an allowance of 5 misses. Each time Mario misses, the hammer count reduces. If the hammer cout reaches zero, it is game over
+2. Mario has an allowance of 5 misses. Each time Mario misses, the hammer count reduces. If the hammer cout reaches zero, it is game over
 
-- Bowser pops out randomly on top of the pipes. If Mario happens to be on top on the pipe at the same time Bowser is also there, it is game over.
+3. Bowser pops out randomly on top of the pipes. If Mario happens to be on top on the pipe at the same time Bowser is also there, it is game over.
 
-- When Mario successfully scores 50 'POWS' and the previous conditions weren't met, Player wins
+4. When Mario successfully scores 50 'POWS' and the previous conditions weren't met, Player wins
 
-# THE PROJECT
+## THE PROJECT
 
-- This project is very special to me as I built it on my third week learning JS. I kept the code UNTOUCHED as it reminds me of where I started, keeping me humble and motivated to improve.
+> This project is very special to me as I built it on my third week learning JS. I kept the code UNTOUCHED as it reminds me of where I started, keeping me humble and motivated to improve.
 
-[THE-IDEA]
+#### THE-IDEA
 
-- When learning JS I began doing research on JS beginner projects and dicovered 'Whack-a-mole'. It's a game I personally find extremly boring and consists of a 'mole' appearing at random on the screen, and upon mouse-click the player scores a point.
+When learning JS I began doing research on JS beginner projects and dicovered 'Whack-a-mole'. It's a game I personally find extremly boring and consists of a 'mole' appearing at random on the screen, and upon mouse-click the player scores a point.
 
-- The game was so unappealing to me that I left at that. I then opened a blank project where the only element I had was a button.
+The game was so unappealing to me that I left at that. I then opened a blank project where the only element I had was a button.
 
-[THE-BUTTON-MOVED]
+#### THE-BUTTON-MOVED
 
-- I focused on learning key-press events that day, and suddenly...the button moved its own width to the left. The button almost instantly became an img of Mario, and from there...Mario Whack was born.
+I focused on learning key-press events that day, and suddenly...the button moved its own width to the left. The button almost instantly became an img of Mario, and from there...Mario Whack was born.
 
-[TWO-DAYS]
+#### TWO-DAYS
 
-- I coded the game on a single day so I wouldn't lose my train of thought. The next day I 'refined' it and had my son play. Teenager approved.
+I coded the game on a single day so I wouldn't lose my train of thought. The next day I 'refined' it and had my son play. Teenager approved.
 
-# STRUCTURE
+## STRUCTURE
 
-[HTML]
+1. HTML
 
 - The html in this project is very basic consisting of mostly imgs of pipes, blocks, and well...the characters.
 
 - On the 'refining' day, when I decided to limit hammers and add score, those got added to the html.
 
-[CSS]
+2. CSS
 
 - CSS is actually what made this game possible. Grid to be specific, was the way I found to basically 'map' the screen, and used it in JS as coordinates for the character's position, and 'clash' logic.
 
-[JS]
+3. JS
 
 - As usual, it began by querying the html elements. #START
 
@@ -65,7 +65,7 @@
 
 - Variables to track hammers and pows were declared, as well game over #Hammer and Score and isItOver
 
-[MARIO-BASICS]
+###### MARIO-BASICS
 
 - The map created with the grid implements two levels ('bottom', 'top') where the characters can be at
 
@@ -75,25 +75,25 @@
 
 - Mario needs to have his current facing position tracked for conditionals later on #MARIO
 
-[BOWSER-BASICS]
+###### BOWSER-BASICS
 
 - Bowser only faces right, and therefore simplifies how he is originally set. All he needs is a beginning column and row position #BOWSER
 
-[COLUMNS-ROWS]
+###### COLUMNS-ROWS
 
 - Created variable for all rows and columns
 
-[SWITCH]
+###### SWITCH
 
 - The switch statement you see is what keeps track of mario position on the grid
 
 - If at any point his and Bowser's coordinates match, doesBowserWin() will call a game over #Determine Mario Col Position
 
-[MARIO-FACING-LEFT-RIGHT]
+###### MARIO FACING LEFT-RIGHT
 
 - Logic that will change Marios img src depending on which direction he is facing
 
-[marioLeftRightMovements]
+###### MARIO LEFT RIGHT MOVEMENTS
 
 - Implements key press event that moves Mario on the x axis
 
@@ -145,5 +145,4 @@
 
 # WE CAN'T FORGET WHERE WE STARTED
 
-- Aryse G. Tansy
-  medic1111@gmail.com
+> Aryse G. Tansy medic1111@gmail.com
