@@ -2,6 +2,10 @@
 
 A HTML/CSS/JS game that consists of two characters: Mario and Bowser (nintendo owns all copyrights). The player takes the role of Mario, who has to 'POW' Bowser 50 times before the clock runs out.
 
+![image of gameplay](./img/screen.png)
+
+[Live version here](https://mario-whack.netlify.app/)
+
 ## STEPS
 
 1. If live-server extension is available, download the project and 'go live'.
